@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كيمياء ثاني ثانوي | Abdulrahman</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #27ae60; --bg-color: #f4f7f9; --card-bg: #ffffff; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Tajawal', sans-serif; background-color: var(--bg-color); margin: 0; padding: 0; min-height: 100vh; display: flex; flex-direction: column; color: #333; }
+        .main-container { width: 100%; padding: 20px; flex-grow: 1; display: flex; flex-direction: column; align-items: center; }
+        header { width: 100%; max-width: 1200px; text-align: center; background: white; padding: 30px 20px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 40px; border-bottom: 4px solid var(--primary); }
+        header h1 { font-size: 1.8rem; margin: 0; color: #2c3e50; }
+        .author-name { font-family: 'Arial', sans-serif; font-size: 0.9rem; color: #95a5a6; letter-spacing: 1px; margin-top: 5px; }
+        .main-subtitle { font-size: 1.3rem; margin: 15px 0; color: #27ae60; font-weight: bold; }
+        .description-box { background: #eef9f1; color: #1e8449; padding: 10px 25px; border-radius: 12px; font-size: 1rem; margin-bottom: 20px; display: inline-block; border-right: 4px solid var(--primary); }
+        .slogan { font-size: 0.9rem; color: #7f8c8d; margin-top: 15px; border-top: 1px dashed #eee; padding-top: 10px; line-height: 1.6; }
+        .models-grid { display: grid; width: 100%; max-width: 1000px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; margin-bottom: 40px; }
+        .model-card { background: var(--card-bg); border-radius: 18px; padding: 30px 15px; text-decoration: none; color: #333; border: 1px solid #edf2f7; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .model-card:hover { transform: translateY(-8px); border-color: var(--primary); box-shadow: 0 10px 20px rgba(39, 174, 96, 0.1); }
+        .model-card .icon { font-size: 50px; margin-bottom: 15px; }
+        .model-card span { font-weight: bold; font-size: 1.1rem; }
+        footer { padding: 25px; text-align: center; background: #fff; color: #888; font-size: 0.85rem; border-top: 1px solid #eee; }
+        @media (max-width: 600px) { .models-grid { grid-template-columns: repeat(2, 1fr); gap: 15px; } header h1 { font-size: 1.4rem; } }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>بوابة الاختبارات الرقمية 🏆</h1>
+            <div class="author-name">Abdulrahman</div>
+            <p class="main-subtitle">قسم كيمياء ثاني ثانوي ⚗️</p>
+            <div class="description-box">نماذج تدريبية مخصصة لمنهج الكيمياء للصف الثاني ثانوي</div>
+            <div class="slogan">تذكر أن هذه النماذج وسيلة للتدريب والتقييم الذاتي، <br><b>المذاكرة الشاملة هي طريقك الأساسي للإبداع.</b></div>
+        </header>
+        <div class="models-grid">
+            <a href="https://thsyly4.github.io/thsyly4.2/" class="model-card"><div class="icon">💧</div><span>نموذج ١</span></a>
+            <a href="#" class="model-card"><div class="icon">🔥</div><span>نموذج ٢</span></a>
+            <a href="#" class="model-card"><div class="icon">🧊</div><span>نموذج ٣</span></a>
+            <a href="#" class="model-card"><div class="icon">🌪️</div><span>نموذج ٤</span></a>
+        </div>
+    </div>
+    <footer>جميع الحقوق محفوظة 2026 © <br><span style="font-size: 0.75rem; margin-top: 5px; display: block;">مع تمنياتنا لطلاب ثاني ثانوي بالتوفيق والتميز ✨</span></footer>
+</body>
+</html>
